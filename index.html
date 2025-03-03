@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtube.com Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img src="https://supersimple.dev/exercises/youtube/icons/hamburger-menu.svg" class="hamburger-menu">
+
+            <img src="https://supersimple.dev/exercises/youtube/icons/youtube-logo.svg" class="youtube-logo">
+        </div>
+
+        <!-- position the tooltips absolute inside their containers with position relative -->
+
+        <div class="middle-section">
+            <input type="text" placeholder="Search" class="search-bar">
+
+            <button class="search-button">
+                <img src="https://supersimple.dev/exercises/youtube/icons/search.svg" class="search-icon">
+                <div class="tooltip">Search</div>
+            </button>
+
+            <button class="voice-search-button">
+                <img src="https://supersimple.dev/exercises/youtube/icons/voice-search-icon.svg" class="voice-search-icon">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+
+        <div class="right-section">
+
+            <div class="create-tooltip">
+                <img src="https://supersimple.dev/exercises/youtube/icons/upload.svg" class="upload-icon">
+                <div class="tooltip">Create</div>
+            </div>
+
+            <div class="youTube-apps-tooltip">
+                <img src="https://supersimple.dev/exercises/youtube/icons/youtube-apps.svg" class="youtube-apps-icon">
+                <div class="tooltip">YouTube apps</div>
+            </div>
+
+            <div class="notis-icon-container">
+                <img src="https://supersimple.dev/exercises/youtube/icons/notifications.svg" class="notification-icon">
+                <div class="notis-icon-count">
+                    9+
+                </div>
+                <div class="tooltip">Notifications</div>
+            </div>
+
+            <img src="https://i.ibb.co/z7BM5vG/f-GB7-Ch-DDd2-J00tw-VABNh-Ii-Wb2-C-HQi-P22c-Fs-Yn-Aedo6s-BS7h-FOR1-Kvp-Ut6-N96-XLYBu-Bd-KAdo-s88-c-k.jpg" class="my-channelpicture-icon">
+        </div>
+    </header>
+
+    <nav class="sidebar">
+        <div>
+            <div class="navbarlink">
+                <img src="https://supersimple.dev/exercises/youtube/icons/home.svg" class="sidebar-home">
+                <div>Home</div>
+            </div>
+
+            <div class="navbarlink">
+                <img src="https://supersimple.dev/exercises/youtube/icons/explore.svg" class="sidebar-explore">
+                <div>Explore</div>
+            </div>
+
+            <div class="navbarlink">
+                <img src="https://supersimple.dev/exercises/youtube/icons/subscriptions.svg" class="sidebar-subs">
+                <div>Subscriptions</div>
+            </div>
+
+            <div class="navbarlink">
+                <img src="https://supersimple.dev/exercises/youtube/icons/originals.svg" class="sidebar-originals">
+                <div>Originals</div>
+            </div>
+
+            <div class="navbarlink">
+                <img src="https://supersimple.dev/exercises/youtube/icons/youtube-music.svg" class="sidebar-music">
+                <div class="sidebar-term">YouTube Music</div>
+            </div>
+
+            <div class="navbarlink">
+                <img src="https://supersimple.dev/exercises/youtube/icons/library.svg" class="sidebar-library">
+                <div>Library</div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- The videotimes are positioned absolute inside their containers with position relative -->
+
+    <main class="main-content">
+        <section class="video-section">
+            <div class="videocard">
+                <div class="video-container">
+                    <img src=" https://i.ibb.co/8mskGy9/hq720.jpg" class="container-thumbnail">
+                    <div class="videotime">6:31:24</div>
+                </div>
+
+                <div class="video-info-container">
+                    <div class="channelpfp-container">
+                        <img src="https://i.ibb.co/n6Mp0CV/AIdro-laf9d-Dy-NATE1-Rd-VUKthwnw-T9-TSm9-N0my0j-L2-H8g-Cvjw-s68-c-k-c0x00ffffff-no-rj.jpg" class="channelpfp">
+                    </div>
+                    <div class="video-info">
+                        <p class="videotitle">HTML &amp; CSS Full Course - Beginner to Pro</p>
+                        <p class="channelname">SuperSimpleDev</p>
+                        <p class="videostats">
+                            13M views · 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videocard">
+                <div class="video-container">
+                    <img src="https://i.ibb.co/Stf5Dc2/thumbnail-1.webp" class="container-thumbnail">
+                    <div class="videotime">02:41</div>
+                </div>
+
+                <div class="video-info-container">
+                    <div class="channelpfp-container">
+                        <img src="https://supersimple.dev/exercises/youtube/channel-profile-pics/channel-1.jpeg" class="channelpfp">
+                    </div>
+                    <div class="video-info">
+                        <p class="videotitle">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="channelname">Marques Brownlee</p>
+                        <p class="videostats">
+                            3.4M views · 6 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videocard">
+                <div class="video-container">
+                    <img src="https://i.ibb.co/gFn7xJJ/hq720.jpg" class="container-thumbnail">
+                    <div class="videotime">1:46:05</div>
+                </div>
+
+                <div class="video-info-container">
+                    <div class="channelpfp-container">
+                        <img src="https://i.ibb.co/THwh6wH/Td6x-F5-Y1-Wxp-Lvkztqy-ECu-XXy-PN7-Mao-WFTcyr-RNDxr-UCfj-Knq-Ti-QGv-Eu-E3c1-XGw3-Anevb1-YP-s68-c-k-c.jpg" class="channelpfp">
+                    </div>
+                    <div class="video-info">
+                        <p class="videotitle">Top 30 Songs of TheFatRat 2024 - Best Of TheFatRat - TheFatRat Mega Mix</p>
+                        <p class="channelname">Music Store</p>
+                        <p class="videostats">
+                            1.2M views · 5 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videocard">
+                <div class="video-container">
+                    <img src="https://i.ibb.co/XVxXNx6/hq720.jpg" class="container-thumbnail">
+                    <div class="videotime">2:05:05</div>
+                </div>
+
+                <div class="video-info-container">
+                    <div class="channelpfp-container">
+                        <img src="https://i.ibb.co/FJhLH0m/a-Y2e2-Vq5ag-O5p-Lk-Kq4-Mnf-Ce-G-q4-Mb-Vgk-Hy-WUPl9v52k-ZD-c-STMs-I-Yz-O2-XW1s-LSUWs-MOYWg-Kw-s68-c.jpg" class="channelpfp">
+                    </div>
+                    <div class="video-info">
+                        <p class="videotitle">THE BEST GYM PHONK 2024 ※ BEST PHONK MUSIC PLAYLIST ※ GYM, AGGRESSIVE, DRIFT, FUNK ※ Фонк 2024 #037</p>
+                        <p class="channelname">Phonk Demon</p>
+                        <p class="videostats">
+                            2.2M views · 4 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videocard">
+                <div class="video-container">
+                    <img src="https://i.ibb.co/jMZvWLD/hq720.jpg" class="container-thumbnail">
+                    <div class="videotime">5:04</div>
+                </div>
+
+                <div class="video-info-container">
+                    <div class="channelpfp-container">
+                        <img src="https://i.ibb.co/3yT57v8/p-JDdntx0p0-Gq8jb-Veb-MJ9g1-Fu-Ol-Zr-Ux-ILGnyu-TJWWJS0-Kq-Aik-Axz-Id-UMhlm-VGOt-Yc6-Xb3onrw-s68-c-k.jpg" class="channelpfp">
+                    </div>
+                    <div class="video-info">
+                        <p class="videotitle">Welcome to Noxus - Bite Marks (ft. TEYA) | 2025 Season 1 Cinematic - League of Legends</p>
+                        <p class="channelname">League of Legends</p>
+                        <p class="videostats">
+                            3M views · 3 hours ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videocard">
+                <div class="video-container">
+                    <img src="https://i.ibb.co/8dKqnSV/hq720.jpg" class="container-thumbnail">
+                    <div class="videotime">8:40</div>
+                </div>
+
+                <div class="video-info-container">
+                    <div class="channelpfp-container">
+                        <img src="https://i.ibb.co/TTWfy8S/Aj-Mp-GQVE-Q6-E-r-ZD0035isn-i-NE-M4-JGzw-XQ-Sw-ANyys2a-U5es-IFe5j-ug-NYQp-Ffa-UIUvw-At-U-s68-c-k-c0x.jpg" class="channelpfp">
+                    </div>
+                    <div class="video-info">
+                        <p class="videotitle">ARCANE RAP CYPHER | Cam Steady ft. Chi-Chi, Shwabadi, and More</p>
+                        <p class="channelname">Cam Steady</p>
+                        <p class="videostats">
+                            213K views · 3 weeks ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videocard">
+                <div class="video-container">
+                    <img src="https://i.ibb.co/1JLBzCT/hq720.jpg" class="container-thumbnail">
+                    <div class="videotime">3:26:43</div>
+                </div>
+
+                <div class="video-info-container">
+                    <div class="channelpfp-container">
+                        <img src="https://i.ibb.co/0KtSp2z/AIdro-l-GRc-05-M2-Oo-E1ej-Qdxe-Fhy-P7-Ok-Jg9h4-Y-7-CK-5je3-Qq-FI-s68-c-k-c0x00ffffff-no-rj.jpg" class="channelpfp">
+                    </div>
+                    <div class="video-info">
+                        <p class="videotitle">Learn JavaScript - Full Course for Beginners</p>
+                        <p class="channelname">freeCodeCamp.org</p>
+                        <p class="videostats">
+                            19M views · 6 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videocard">
+                <div class="video-container">
+                    <img src="https://i.ibb.co/28GpxmD/hq720.jpg" class="container-thumbnail">
+                    <div class="videotime">2:54:45</div>
+                </div>
+
+                <div class="video-info-container">
+                    <div class="channelpfp-container">
+                        <img src="https://i.ibb.co/ZdPG2jg/AIdro-lx-UGMAh-M6-Cuwvwtoz-Pp-B1-Ohb05-G3b12-VBbg-Dypi-K2-GA-s68-c-k-c0x00ffffff-no-rj.jpg" class="channelpfp">
+                    </div>
+                    <div class="video-info">
+                        <p class="videotitle">Learn JavaScript in 2022! Free Software Engineering Bootcamp! (class 12) - #100Devs</p>
+                        <p class="channelname">Leon Noel</p>
+                        <p class="videostats">
+                            97K views · 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videocard">
+                <div class="video-container">
+                    <img src="https://i.ibb.co/1rgt03Q/hqdefault.jpg" class="container-thumbnail">
+                    <div class="videotime">7:41</div>
+                </div>
+
+                <div class="video-info-container">
+                    <div class="channelpfp-container">
+                        <img src="https://i.ibb.co/6RhWBNk/AIdro-m-Fobzi-URxgar-N1-Oqb-Ka-ORRRUW7-s4-Zv-KK5-ROq-BNwi7xd-U-s88-c-k-c0x00ffffff-no-rj.jpg" class="channelpfp">
+                    </div>
+                    <div class="video-info">
+                        <p class="videotitle">ERIC THOMAS | YOU OWE YOU | Motivational Speaker</p>
+                        <p class="channelname">etthehiphoppreacher</p>
+                        <p class="videostats">
+                            11M views · 9 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videocard">
+                <div class="video-container">
+                    <img src="https://i.ibb.co/ZxmNCqL/hqdefault.jpg" class="container-thumbnail">
+                    <div class="videotime">3:54</div>
+                </div>
+
+                <div class="video-info-container">
+                    <div class="channelpfp-container">
+                        <img src="https://i.ibb.co/dPpPqDy/Cf-PI1aj-N8g-IIacne-LEEr-GAww9-ZRo4dnn0-eneh-Nw-2g-DEWkfp-Pj-M-CZp74-Ymjg-Zl-Qxz-LKx-QEWTI-s48-c-k-c.jpg" class="channelpfp">
+                    </div>
+                    <div class="video-info">
+                        <p class="videotitle">Fortnite Rap Song - Like a Ninja | (Battle Royale) by FabvL</p>
+                        <p class="channelname">FabvL</p>
+                        <p class="videostats">
+                            4M views · 6 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videocard">
+                <div class="video-container">
+                    <img src="https://i.ibb.co/dtrn6ff/hqdefault.jpg" class="container-thumbnail">
+                    <div class="videotime">1:44:50</div>
+                </div>
+
+                <div class="video-info-container">
+                    <div class="channelpfp-container">
+                        <img src="https://i.ibb.co/THwh6wH/Td6x-F5-Y1-Wxp-Lvkztqy-ECu-XXy-PN7-Mao-WFTcyr-RNDxr-UCfj-Knq-Ti-QGv-Eu-E3c1-XGw3-Anevb1-YP-s68-c-k-c.jpg" class="channelpfp">
+                    </div>
+                    <div class="video-info">
+                        <p class="videotitle">Top Songs Of NEFFEX ❄️ Best of NEFFEX all time 🔥 NEFFEX 2023</p>
+                        <p class="channelname">Music Store</p>
+                        <p class="videostats">
+                            3.4M views · 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videocard">
+                <div class="video-container">
+                    <img src="https://i.ibb.co/zFtWrZB/hqdefault.jpg" class="container-thumbnail">
+                    <div class="videotime">55:41</div>
+                </div>
+
+                <div class="video-info-container">
+                    <div class="channelpfp-container">
+                        <img src="https://i.ibb.co/C1G24fg/vby-Fcq-Lffbt-Em0-Mspvf-COeeagl-IMG84up-Lk-Px-AIs-Te3-QWDwp-Qjcq-Pbx-wi1-XYnwn-LC5-Yzqe-Ww-s48-c-k-c.jpg" class="channelpfp">
+                    </div>
+                    <div class="video-info">
+                        <p class="videotitle">The 15 Most Popular Gaming Backsongs II Best NEFFEX Songs Of All Time</p>
+                        <p class="channelname">Haz Gaming</p>
+                        <p class="videostats">
+                            1.1M views · 5 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+</body>
+</html>
